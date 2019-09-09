@@ -3,15 +3,16 @@ import AstronomyCard from './AstronomyCard'
 import Header from './Header'
 import axios from 'axios'
 
+const API_KEY = process.env.REACT_APP_API_KEY
 export default class AstronomyContainer extends Component {
     state = {
         astronomy: []
     }
 
     componentDidMount() {
-        const API_KEY = 'cJNsCTUe5qljyX5KsERSkzK5GXyJOWApJVpNI5fL'
-        const END_POINT = 'https://api.nasa.gov/planetary/apod?api_key='
-
+        
+        const END_POINT = 'https://api.nasa.gov/planetary/apod?api_key=';
+        console.log(API_KEY)
         axios.get(END_POINT + API_KEY)
             .then(res => {
                 this.setState({
