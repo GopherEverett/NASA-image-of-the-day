@@ -12,7 +12,6 @@ export default class AstronomyContainer extends Component {
     componentDidMount() {
         
         const END_POINT = 'https://api.nasa.gov/planetary/apod?api_key=';
-        console.log(API_KEY)
         axios.get(END_POINT + API_KEY)
             .then(res => {
                 this.setState({
