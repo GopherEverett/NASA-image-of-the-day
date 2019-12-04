@@ -48,19 +48,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    background-color: black;
+
 }
 
 img {
     cursor: pointer;
-    max-height: 500px;
+    max-height: 400px;
     filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.45));
-    transition: all 325ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 img:hover {
-    transition: all 325ms ease-in-out;
-    transform: scale(1.07);
+    transition: all 500ms ease-in-out;
+    transform: scale(1.7);
 }
 
 p {
