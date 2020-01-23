@@ -1,7 +1,11 @@
 import React from 'react';
 import AstronomyContainer from './components/AstronomyContainer'
 import './stylesheets/styles.css';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
+Amplify.configure(awsconfig);
 
 
 function App() {
@@ -12,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App, true);

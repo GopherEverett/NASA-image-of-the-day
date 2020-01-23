@@ -1,0 +1,20 @@
+{
+    "react": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-nasaimageoftheday-react-110326-authRole",
+            "UnauthRoleArn": "arn:aws:iam::968575207675:role/amplify-nasaimageoftheday-react-110326-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::968575207675:role/amplify-nasaimageoftheday-react-110326-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-nasaimageoftheday-react-110326-deployment",
+            "UnauthRoleName": "amplify-nasaimageoftheday-react-110326-unauthRole",
+            "StackName": "amplify-nasaimageoftheday-react-110326",
+            "StackId": "arn:aws:cloudformation:us-east-2:968575207675:stack/amplify-nasaimageoftheday-react-110326/9aa8cf70-1b66-11ea-b1ac-021e2396e2cc",
+            "AmplifyAppId": "d25a1mvxsr2k4t"
+        },
+        "categories": {
+            "auth": {
+                "nasaimageoftheday98e21836": {}
+            }
+        }
+    }
+}
