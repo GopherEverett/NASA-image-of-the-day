@@ -1,13 +1,13 @@
 import React from 'react';
 import AstronomyContainer from './components/AstronomyContainer'
-import './stylesheets/styles.css'; // or 'aws-amplify-react-native';
+import './stylesheets/styles.css';
 
 
 
 function App() {
   return (
     <div className="App">
-    <AstronomyContainer />
+      <AstronomyContainer />
     </div>
   );
 }
