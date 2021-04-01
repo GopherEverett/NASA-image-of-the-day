@@ -1,6 +1,6 @@
 import React from 'react';
 import AstronomyContainer from './components/AstronomyContainer'
-import './stylesheets/styles.css';
+import './stylesheets/styles.css'; // or 'aws-amplify-react-native';
 
 
 
