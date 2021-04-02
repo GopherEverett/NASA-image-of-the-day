@@ -2,12 +2,12 @@ import React from 'react';
 
 const AstronomyCard = (props) => {
 
-    const { title, hdurl, explanation, date, copyright, url } = props.data
+    const { title, hdurl, explanation, date, copyright, url, media_type } = props.data
 
     return (
         <div className="astronomy-card">
             <h6 className="astronomy-title">{title}</h6>
-            {/^http:\/\/apod/.test(hdurl) ?
+            {media_type === 'image'  ?
                 <a href={hdurl} className="astronomy-image-wrapper">
                     <img src={hdurl} alt={title} />
                 </a> :
