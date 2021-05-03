@@ -1,5 +1,10 @@
 ## NASA Image of The Day
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
+
+
 A small React app that utilizes [NASA open api](https://api.nasa.gov/) to render their image of the day.
+
+[Deployed app](https://nasa-image-of-the-day.herokuapp.com/)
 ## Available Scripts
 
 In the project directory, you can run:
