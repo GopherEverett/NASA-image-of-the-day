@@ -1,5 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## NASA Image of The Day
+A small React app that utilizes [NASA open api](https://api.nasa.gov/) to render their image of the day.
 ## Available Scripts
 
 In the project directory, you can run:
