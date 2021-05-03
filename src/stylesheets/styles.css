@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-
-body {
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');body {
     height: 100vh;
     background: #eaeaea;
     color: rgba(0, 0, 0, 0.87);
-    font-size: 5rem;
+    /* font-size: 64px; */
     font-weight: 900;
-    font-family: "Merriweather", sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
 }
 
 .header {
     color: #eaeaea;
-    background-color: black;
+    background: linear-gradient(45deg, black, #02029e);
     display: flex;
     max-height: 10vh;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .astronomy-card {
@@ -35,7 +34,7 @@ body {
 .astronomy-title {
     margin: 25px 0;
     padding: 15px 45px;
-    font-size: 18px;
+    font-size: 2rem;
     color: #6200ea;
 }
 
@@ -65,7 +64,7 @@ img:hover {
 }
 
 p {
-    font-size: 12px;
+    font-size: 1.2rem;
     padding: 10px 50px;
     letter-spacing: 0.66px;
     line-height: 2;
